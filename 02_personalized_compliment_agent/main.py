@@ -1,3 +1,9 @@
+"""
+### ✅ Learning Objectives
+* How to define a state with default values (`compliment: str = ""`).
+* How to use `set_entry_point()` and `set_finish_point()` instead of `START`/`END`.
+"""
+
 from typing import TypedDict
 
 from langgraph.graph import StateGraph

@@ -1,3 +1,13 @@
+"""
+### ✅ Learning Objectives
+* How to define a custom state with `TypedDict`.
+* How to create a simple node that updates state.
+* How to build a single node graph with nodes and edges.
+* How to compile and run a LangGraph.
+* Basics of functional, state-based workflows.
+* How to visualize the graph structure.
+"""
+
 from typing import TypedDict
 from langgraph.graph import StateGraph
 from langgraph.graph import START, END
