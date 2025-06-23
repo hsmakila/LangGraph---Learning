@@ -12,3 +12,40 @@ Original repo: [Vaibhav Mehra's LangGraph Course](https://github.com/iamvaibhavm
 ## Repo Structure
 
 Each folder contains exercises and projects aligned with the course sections, demonstrating practical LangGraph usage.
+
+## Getting Started
+
+Follow these steps to set up and run the code:
+
+1. **Clone the repository**
+    ```sh
+    git clone https://github.com/your-username/repo-name.git
+    ```
+
+3. **Python Version**
+    ```sh
+    Python 3.13.5
+    ```
+
+4. **Create a virtual environment**
+    ```sh
+    python -m venv .venv
+    ```
+    
+5. **Activate the virtual environment**
+    ```sh
+    .venv\Scripts\activate   # On Windows
+    source .venv/bin/activate   # On macOS/Linux
+    ```
+
+6. **Install requirements**
+    ```sh
+    pip install -r requirements.txt
+    ```
+
+7. **Setup API Keys**
+   Create .env file and inculde below API Keys
+    ```sh
+    GROQ_API_KEY=<api-key>
+    TAVILY_API_KEY=<api-key>
+    NEWSAPI_API_KEY=<api-key>
